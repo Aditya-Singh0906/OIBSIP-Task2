@@ -1,0 +1,111 @@
+/* Reset some default styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
+body {
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 20px;
+    background: linear-gradient(to right,  #f3cb8e, #e4d4b7);
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    font-family: 'Yeseva One', cursive;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Hero image section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Biography section */
+.biography, .legacy {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.biography h2, .legacy h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+    font-family: 'Yeseva One', cursive;
+}
+
+.biography p, .legacy p {
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #ddd;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .biography h2, .legacy h2 {
+        font-size: 1.5rem;
+    }
+
+    .biography p, .legacy p {
+        font-size: 0.9rem;
+    }
+}
+
+
